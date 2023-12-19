@@ -169,9 +169,9 @@ class _SignupPageState extends State<SignupPage> {
                               height: 30.0,
                               width: 30.0,
                               decoration: const BoxDecoration(
-                                // image: DecorationImage(
-                                //     image:  AssetImage("images/google_logo.png"),
-                                //     fit: BoxFit.cover),
+                               image: DecorationImage(
+                                    image:  AssetImage("assets/images/google_logo.png"),
+                                    fit: BoxFit.cover),
                                 shape: BoxShape.circle,
                               ),
                             ),
